@@ -1,0 +1,16 @@
+.filterToApply {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+#remove {
+	height: 50%;
+
+	margin-left: 10px;
+}
+
+.submit {
+	margin-top: 10px;
+	display: flex;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>image editor</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	Choose image file:
+	<div>
+		<input type="file" accept="image/*" id="file">
+	</div>
+	Enter image width:
+	<div>
+		<input type="number" id="width">
+	</div>
+	Enter image height:
+	<div>
+		<input type="number" id="height">
+	</div>
+	<label for="select">Apply filter:</label>
+	<div id="filters">
+		<select name="filter" id="filter">
+			<option value="n">--choose an option--</option>
+			<option value="bw">black and white</option>
+			<option value="fv">flip vertical</option>
+			<option value="fh">flip horizontal</option>
+			<option value="r9l">rotate 90d left</option>
+			<option value="r9r">rotate 90d right</option>
+			<option value="tb">threshold binarization</option>
+		</select>
+	</div>
+	<div class="submit">
+		<button>Submit changes</button>
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
